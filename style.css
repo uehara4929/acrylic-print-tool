@@ -1,17 +1,13 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-#app {
-    text-align: center;
+#controls {
+    margin: 10px 0;
 }
 
-canvas {
-    border: 1px solid #000;
-    margin-top: 10px;
+button {
+    margin-right: 10px;
+    padding: 5px 10px;
 }

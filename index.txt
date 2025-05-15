@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>アクリルデザインツール</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+        <h1>アクリルデザインツール</h1>
+        <input type="file" id="upload" />
+        <div id="controls">
+            <button id="zoomIn">ズームイン</button>
+            <button id="zoomOut">ズームアウト</button>
+            <button id="rotateLeft">左回転</button>
+            <button id="rotateRight">右回転</button>
+        </div>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <button id="downloadPDF">PDFダウンロード</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
